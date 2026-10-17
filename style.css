@@ -87,6 +87,9 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 20px; }
 .yt.vertical { aspect-ratio: 9 / 16; max-width: 280px; margin: 0 auto; }
 .repos.stack { grid-template-columns: 1fr !important; align-content: start; }
 
+/* LinkedIn video embed */
+.li-embed { width: 100%; max-width: 504px; height: 399px; border: 0; border-radius: 10px; display: block; margin: 0 auto 4px; background: var(--bg-2); }
+
 /* Steam widget */
 .steam-widget { margin: 20px 0; }
 .steam-widget iframe { width: 100%; max-width: 646px; height: 190px; border: 0; border-radius: 8px; }
