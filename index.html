@@ -1,133 +1,193 @@
-<!DOCTYPE HTML>
-<!--
-	Strata by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<meta name="google-site-verification" content="ho6UEy5sjWUVvdUnGMbMilx2UnSv2xLdg4RZNFLWAMo" />
-		<title>Portfolio - Sönmez Cankurt</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="ho6UEy5sjWUVvdUnGMbMilx2UnSv2xLdg4RZNFLWAMo">
+  <title>Sönmez Cankurt | Unity Game Developer</title>
+  <meta name="description" content="Unity and C# game developer. Gameplay and systems programmer on Chaosborne, a PC roguelike auto-battler in a public Steam playtest.">
+  <meta property="og:title" content="Sönmez Cankurt | Unity Game Developer">
+  <meta property="og:description" content="Gameplay and systems programming in Unity and C#: data-driven combat effects, trigger engines, editor tooling and localization.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Sönmez Cankurt</a>
+      <div class="nav-links">
+        <a href="#chaosborne">Chaosborne</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar2.jpg" alt="" /></a>
-					<h1><strong>
-						Hi there! <br>
-						My name is Sönmez <br> I'm a Game Developer<br></strong></h1>
-				</div>
-			</header>
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <img class="avatar" src="media/avatar.jpg" alt="Sönmez Cankurt" width="120" height="120">
+      <p class="eyebrow">Unity Game Developer (C#)</p>
+      <h1>Gameplay and systems programmer</h1>
+      <p class="lead">7+ years in software and 4+ in games. I'm co-developing <strong>Chaosborne</strong>, a PC roguelike auto-battler in a public Steam playtest, after 2 years at a hyper-casual mobile studio.</p>
+      <div class="cta">
+        <a class="btn primary" href="https://store.steampowered.com/app/4371840" target="_blank" rel="noopener">Chaosborne on Steam</a>
+        <a class="btn" href="https://www.linkedin.com/in/sonmezcankurt" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/sonmezcankurt" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
 
-		<!-- Main -->
-			<div id="main">
+    <!-- CHAOSBORNE -->
+    <section id="chaosborne" class="section">
+      <div class="section-head">
+        <h2>Chaosborne</h2>
+        <p class="meta">PC roguelike auto-battler · Unity 6 · Feb 2026 – Present · Gameplay and systems programmer in a 2-person team</p>
+      </div>
+      <p>Shipped a public Steam playtest and ran a booth with hands-on player demos at Gaming Istanbul (GIST) 2026. Below are the systems I built, each with the problem, the approach and the trade-off.</p>
 
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2>About Me</h2>
-						</header>
-						
-						<h5><p>Experienced in coding and open to improvement in mobile game development.
-							 Proficient in C# and object-oriented programming (OOP), with a focus on adhering to SOLID principles to ensure clean and efficient code.
-							  Demonstrated track record of developing and publishing 2 mobile games within a year.
-							   Additionally, created more than 10 prototypes during this period, showcasing versatility and creativity.
-							    Leveraged strong C# and Unity skills to deliver engaging user experiences.
-								 I am pursuing my passion for developing mobile games that include complex systems.
-							   <br><br>
-							   Below, you will find a collection of Published Games, and a Unity Custom Tool.
-							   <br><br>
-							   You can also explore my code repositories on <a target="_blank" href="https://github.com/SonmezCankurt"> (Github) </a>
-							   , and gain insights into my professional background on <a target="_blank" href="https://www.linkedin.com/in/sonmezcankurt/"> (Linkedin) </a>
-				
-						</p></h5>
-		
-					</section>
+      <div class="steam-widget">
+        <iframe src="https://store.steampowered.com/widget/4371840/" title="Chaosborne on Steam" loading="lazy"></iframe>
+      </div>
 
-				<!-- Two -->
-					<section id="two">
-						<h2>Games</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<iframe width="315" height="560" src="https://www.youtube.com/embed/PMH25ACUm-g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-								<p><b><h3>Merge & Defend - (Published)</h3></b></p>
+      <!-- To add a gameplay trailer later, replace this placeholder with:
+           <video class="clip" src="media/chaosborne-gameplay.mp4" autoplay muted loop playsinline controls></video> -->
+      <!-- MEDIA: add media/chaosborne-gameplay.mp4, then replace this comment with: <video class="clip" src="media/chaosborne-gameplay.mp4" autoplay muted loop playsinline></video> -->
 
-								<h5><p>It is a 3D merge game in which we determine our own strategy, create soldiers,
-									 combine them to become stronger soldiers, place traps, and fight against the oncoming enemies in each wave.
-									<br></p></h5>
-									<h4><p>
-									• AI Pathfinding for Enemy and Ally Unit<br>
-									• Grid Management<br>
-									• 3D Object Dragging and Merger<br>
-									• 3D Grid Management<br>
-									• Modular Creation for Enemy an Ally Unit<br>
-									</p></h4>
+      <div class="cards">
+        <article class="card">
+          <!-- Replace with: <video class="clip" src="media/effects.mp4" autoplay muted loop playsinline></video> -->
+          <!-- MEDIA: add media/effects.mp4, then replace this comment with: <video class="clip" src="media/effects.mp4" autoplay muted loop playsinline></video> -->
+          <h3>Data-driven combat effect engine</h3>
+          <p class="problem"><span>Problem</span> Item cooldowns, item triggers and passive relics each described effects differently, so every new item needed code.</p>
+          <p><span>Approach</span> I rewrote the engine around one serializable effect model (19 effect types, 16 target options, AND/OR target filters) that all three share. Shared helpers own the target and filter rules, one method writes every stat buff, and random targeting reuses list buffers to avoid per-cast allocations. It drives 392 effects across 230 items.</p>
+          <p><span>Trade-off</span> A single model has to stay small, so validity rules live in authoring tools instead of in the model itself.</p>
+          <p class="tags">C# · ScriptableObjects · data-driven design</p>
+        </article>
 
-								<ul class="icons">
-									<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.JenixaGames.MergeDefend&hl=en_US" > <img class="hc-badge" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="227" height="87""> </a></li>
-								</ul>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<iframe width="315" height="560" src="https://youtube.com/embed/BLQi0uuchf4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-								<p><b><h3>Moneybox 3D - (Published)</h3></b></p>
+        <article class="card">
+          <!-- MEDIA: add media/triggers.mp4, then replace this comment with: <video class="clip" src="media/triggers.mp4" autoplay muted loop playsinline></video> -->
+          <h3>Item trigger engine with loop safeguards</h3>
+          <p class="problem"><span>Problem</span> Reactions can trigger other reactions ("when you Slow, gain Rot", "when you Rot, Speed an item"...), which can loop forever.</p>
+          <p><span>Approach</span> The engine reacts to 11 combat events and has 3 safeguards: an allow-list enforced in OnValidate that keeps the trigger graph acyclic (the longest allowed chain is Slow → Rot → Speed → Chaos → Recovery), a guard that lets each effect fire once per chain, and a recursion depth limit with warning logs.</p>
+          <p><span>Trade-off</span> Some effect combinations are blocked by design; "first N times per fight" effects are bounded by per-fight limits instead.</p>
+          <p class="tags">Event-driven architecture · C# events · graph design</p>
+        </article>
 
-								<h5><p>It is a 3D puzzle game in which we try to take the coins out of a 3D piggy bank
-									 using the rules of physics, in increasingly difficult levels and within a certain period of time.
-								   <br></p></h5>
-								   <h4><p>
-									• 3D Objects Physic System<br>
-									• 3D Objects Friction System<br>
-									• All physics interactions within a 3D object<br>
-								   </p></h4>
+        <article class="card">
+          <!-- MEDIA: add media/inspector.mp4, then replace this comment with: <video class="clip" src="media/inspector.mp4" autoplay muted loop playsinline></video> -->
+          <h3>Editor tooling and content pipeline</h3>
+          <p class="problem"><span>Problem</span> A 2-person team cannot keep hundreds of assets consistent by hand.</p>
+          <p><span>Approach</span> Custom inspectors and property drawers show only the fields that matter. OnValidate rules snap invalid data to a legal state and log a readable warning, and a pre-build pass re-validates every asset. Idempotent builders create 23 shop types, 30 events and 26 fortunes from code, and a generator produced 800 enemy fight variants across 16 difficulty levels.</p>
+          <p><span>Trade-off</span> OnValidate only runs in the editor, so the pre-build pass is a required manual step.</p>
+          <p class="tags">Unity Editor scripting · tools · procedural generation</p>
+        </article>
 
+        <article class="card">
+          <!-- MEDIA: add media/localization.mp4, then replace this comment with: <video class="clip" src="media/localization.mp4" autoplay muted loop playsinline></video> -->
+          <h3>Localization and data-driven tooltips</h3>
+          <p class="problem"><span>Problem</span> Hand-written tooltips drift from real values, and Turkish needs its own casing and grammar.</p>
+          <p><span>Approach</span> An editor extractor pulls player-facing text into CSV files and an importer bakes them into ScriptableObject tables (1,199 keys, English and Turkish) with live language switching. Tooltips are generated from effect data, so they show current, buffed item values; a keyword formatter adds colors and inline icons.</p>
+          <p><span>Trade-off</span> Culture-aware casing (Turkish dotted and dotless I) needs invariant comparisons everywhere keys are matched.</p>
+          <p class="tags">Localization · uGUI · TextMesh Pro</p>
+        </article>
+      </div>
+    </section>
 
-								<ul class="icons">
-									<li><a target="_blank" href="https://play.google.com/store/apps/details?id=com.Jenixa.Moneybox&hl=en_US" > <img class="hc-badge" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" width="227" height="87""> </a></li>
-								</ul>
-							</article>
-						</div>
-					</section>
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head">
+        <h2>Other projects</h2>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <div class="steam-widget small">
+            <iframe src="https://store.steampowered.com/widget/3740370/" title="Kingdom's Path on Steam" loading="lazy"></iframe>
+          </div>
+          <h3>Kingdom's Path <span class="when">· mid-2025 · solo prototype</span></h3>
+          <p>A PC tower defense roguelite with custom pathfinding that reroutes enemies after each wave, a procedural tile map that grows as players place terrain zones and modular building placement.</p>
+          <p class="tags">Pathfinding · procedural generation · grid systems</p>
+        </article>
 
-					<!-- Three -->
-					<section id="three">
-						<h2>Tools</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<iframe width="450" height="280" src="https://www.youtube.com/embed/spMB9BSAvOw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-								<p><h3>Find Prefabs With Scripts</h3>
-								<a target="_blank" href="https://github.com/SonmezCankurt/FindPrefabsWithScript" >Check on Github</a>
-								<b><h4>This is Editor Tool in Unity Game Engine that Find Prefabs with Scripts. 
-									</h4><p>
-									<h5>The tool will display a list of prefabs that containing a specific script or scripts derived from it.</h5></p></b>
+        <article class="card">
+          <h3>Vegetable Cut <span class="when">· 2024 · co-developed</span></h3>
+          <p>A 3D match-3 puzzle game for Android with match and combo detection, power-ups, level progression and difficulty scaling, released on Google Play.</p>
+          <p><a href="https://www.linkedin.com/posts/sonmezcankurt_herkese-merhaba-ben-ve-mehmet-keskin-solo-ugcPost-7239689275108151298-qZUV" target="_blank" rel="noopener">Watch the gameplay video on LinkedIn</a></p>
+          <p class="tags">Match-3 · mobile · Android</p>
+        </article>
 
-							</article>
-						</div>
-					</section>
-			</div>
+        <article class="card">
+          <!-- VIDEO (hidden; delete these comment markers to show it): <iframe class="yt vertical" src="https://www.youtube-nocookie.com/embed/PMH25ACUm-g" title="Merge and Defend! gameplay" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <h3>Merge and Defend! <span class="when">· 2022 · Jenixa Games</span></h3>
+          <p>A 3D merge strategy game shipped to Google Play: players create soldiers, merge them into stronger units and place traps against enemy waves. I developed gameplay features including grid management, unit merging and AI pathfinding.</p>
+          <p class="tags">Hyper-casual · mobile · AI pathfinding</p>
+        </article>
 
-		<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a target="_blank" href="https://www.linkedin.com/in/sonmezcankurt/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-						<li><a target="_blank" href="https://github.com/SonmezCankurt" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a target="_blank" href="mailto:sonmezcankurt1262@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				</div>
-			</footer>
+        <article class="card">
+          <!-- VIDEO (hidden; delete these comment markers to show it): <iframe class="yt vertical" src="https://www.youtube-nocookie.com/embed/BLQi0uuchf4" title="Moneybox gameplay" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <h3>Moneybox <span class="when">· 2022 · Jenixa Games</span></h3>
+          <p>A physics-based 3D puzzle game shipped to Google Play: players get the coins out of a 3D piggy bank using physics, in increasingly difficult, timed levels. I developed the physics and friction interactions.</p>
+          <p class="tags">Hyper-casual · mobile · physics</p>
+        </article>
+      </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+      <h3 class="sub">Open-source Unity projects</h3>
+      <div class="cards">
+        <article class="card">
+          <!-- VIDEO (hidden; delete these comment markers to show it): <iframe class="yt " src="https://www.youtube-nocookie.com/embed/spMB9BSAvOw" title="Find Prefabs With Script, Unity editor tool" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <h3>FindPrefabsWithScript</h3>
+          <p>Unity editor tool that lists every prefab containing a given script, or scripts derived from it.</p>
+          <p class="tags"><a href="https://github.com/sonmezcankurt/FindPrefabsWithScript" target="_blank" rel="noopener">View on GitHub</a></p>
+        </article>
+        <div class="repos stack">
+          <a class="repo" href="https://github.com/sonmezcankurt/DijkstraAlgorithm" target="_blank" rel="noopener">
+            <strong>DijkstraAlgorithm</strong>
+            <span>Dijkstra shortest-path demo in Unity.</span>
+          </a>
+          <a class="repo" href="https://github.com/sonmezcankurt/SolidPrinciples" target="_blank" rel="noopener">
+            <strong>SolidPrinciples</strong>
+            <span>Reference project showing SOLID principles in C#.</span>
+          </a>
+        </div>
+      </div>
+    </section>
 
-	</body>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head">
+        <h2>Experience</h2>
+      </div>
+      <ol class="timeline">
+        <li>
+          <div class="t-head"><strong>Indie Game Developer (Unity / C#)</strong> · Self-employed <span class="dates">Jan 2024 – Present</span></div>
+          <p>Chaosborne, Kingdom's Path, Vegetable Cut and open-source Unity tools.</p>
+        </li>
+        <li>
+          <div class="t-head"><strong>Game Developer</strong> · Jenixa Games, Remote <span class="dates">Jan 2022 – Jan 2024</span></div>
+          <p>Developed gameplay for 30+ hyper-casual prototypes in a 3-person team for publisher CPI tests and shipped 2 games to Google Play.</p>
+        </li>
+        <li>
+          <div class="t-head"><strong>Software Developer</strong> · Hugin Retail Solutions, Istanbul <span class="dates">Sep 2018 – Mar 2021</span></div>
+          <p>Fiscal, banking and food-service applications for embedded Android POS terminals in Java and C/C++, with peer code reviews in an Agile team.</p>
+        </li>
+      </ol>
+      <p class="edu">B.Sc. Computer Engineering, Çanakkale Onsekiz Mart University (2013 – 2018)</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <h2>Contact</h2>
+      <p>Open to Game Developer, Unity Developer and Gameplay Programmer roles, on-site or hybrid in Istanbul, or remote.</p>
+      <div class="cta">
+        <a class="btn primary" href="mailto:sonmezcankurt1262@gmail.com">sonmezcankurt1262@gmail.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/sonmezcankurt" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn" href="https://github.com/sonmezcankurt" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Sönmez Cankurt</p>
+  </footer>
+</body>
 </html>
